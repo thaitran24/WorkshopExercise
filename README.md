@@ -14,7 +14,7 @@ Hello 2022!
 Workshop Git
 TickLab
 ```
-- Dự án đang có hai branch `master` và `test` đều được commit cập nhật file `exercise.txt`.
+- Dự án đang có hai branch `master` và `test` đều được commit file `exercise.txt`.
 - Tại branch `master`, hãy thêm ở dòng 4 nội dung `Master`. Sau đó chuyển qua branch `test`.
 - Tại branch `test`,  hãy thêm ở dòng 4 nội dung `Test`. Sau đó stash và quay trỏ lại branch `master`.
 - Tại branch `master`, sử dụng lệnh `git stash pop`.
