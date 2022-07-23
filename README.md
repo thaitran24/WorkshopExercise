@@ -23,11 +23,15 @@ Bạn hãy theo dõi hành vi của Git và giải thích.
 
 ## Question 3
 Xét trường hợp sau đây:
-- Dự án của bạn có một file `exercise.txt`.
-- Hãy khởi tạo một repository tại folder chứa dự án.
+- Dự án của bạn có một file `exercise.txt` với nội dung như sau:
+```
+Hello 2022!
+Workshop Git
+TickLab
+```
 - add và commit file `exercise.txt` tại nhánh `master`.
 - Tạo một nhánh mới tên `test`.
-- Tại branch `master`, bạn thêm nội dung tại một dòng mới của file `exercise.txt` và commit file đó.
+- Tại branch `master`, bạn thêm nội dung "Test" tại dòng 4 của file `exercise.txt` và commit file đó.
 - Tuy nhiên, bạn phát hiện ra commit đấy đáng lẽ phải ở branch `test`.
 
 Làm sao để bạn có thể chuyển những thay đổi trong commit ở branch `master` sang branch `test`?
