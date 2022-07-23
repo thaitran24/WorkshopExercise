@@ -27,7 +27,7 @@ Xét trường hợp sau đây:
 - Hãy khởi tạo một repository tại folder chứa dự án.
 - add và commit file `exercise.txt` tại nhánh `master`.
 - Tạo một nhánh mới tên `test`.
-- Tại branch `master`, bạn thay đổi nội dung file `exercise.txt` và commit file đó.
+- Tại branch `master`, bạn thêm nội dung tại một dòng mới của file `exercise.txt` và commit file đó.
 - Tuy nhiên, bạn phát hiện ra commit đấy đáng lẽ phải ở branch `test`.
 
 Làm sao để bạn có thể chuyển những thay đổi trong commit ở branch `master` sang branch `test`?
