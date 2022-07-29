@@ -6,6 +6,8 @@ Như bạn đã biết, mỗi commit đều có một mã riêng (ID) của nó.
   <img src="https://raw.githubusercontent.com/thaitran24/WorkshopExercise/master/ex1.PNG">
 </p>
 
+GỢI Ý: Sử dụng `git tag`.
+
 ## Question 2
 Như bạn đã biết, các stash lưu lại công việc chưa được commit tại một branch. Xét một trường hợp cụ thể sau đây:
 - Dự án của bạn có một file `exercise.txt` với nội dung như sau:
@@ -21,6 +23,8 @@ TickLab
 
 Bạn hãy theo dõi hành vi của Git và giải thích.
 
+GỢI Ý: Xảy ra conflict.
+
 ## Question 3
 Xét trường hợp sau đây:
 - Dự án của bạn có một file `exercise.txt` với nội dung như sau:
@@ -35,3 +39,5 @@ TickLab
 - Tuy nhiên, bạn phát hiện ra commit đấy đáng lẽ phải ở branch `test`.
 
 Làm sao để bạn có thể chuyển những thay đổi trong commit ở branch `master` sang branch `test`?
+
+GỢI Ý: Sử dụng `git reset` và `git stash`. 
